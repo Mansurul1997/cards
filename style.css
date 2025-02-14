@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#main1 {
+    height: 50%;
+    width: 30%;
+    background-color: black;
+}
+
+.card{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    border-radius: 20px;
+    height: 300px;
+    width: 200px;
+    border: 1px solid salmon;
+}
+
+#card1{
+    z-index: 4;
+    background-color: salmon;
+}
+
+#card2{
+    z-index: 3;
+    rotate: -8deg;
+    background-color: rgb(59, 82, 212);
+}
+
+#card3{
+    z-index: 2;
+    rotate: -16deg;
+    background-color: #64b31b;
+}
+
+#card4{
+    z-index: 1;
+    rotate: -24deg;
+    background-color: #ad16bb;
+}
+
+#main2 {
+    height: 50%;
+    width: 30%;
+    background-color: rgb(48, 42, 42);
+}
+
+.card1{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    transform: translate(-45%, -10%);
+    border-radius: 20px;
+    height: 300px;
+    width: 200px;
+    border: 1px solid salmon;
+}
+
+#card5{
+    z-index: 4;
+    height: 240px;
+    width: 140px;
+    margin: 21px 0px 21px 21px;
+}
+
+#card6{
+    z-index: 3;
+    height: 260px;
+    width: 160px;
+    margin: 14px 0px 14px 14px;
+}
+
+#card7{
+    z-index: 2;
+    height: 280px;
+    width: 180px;
+    margin: 7px 0px 7px 7px;
+}
+
+#card8{
+    z-index: 1;
+}
+
+#main3 {
+    height: 50%;
+    width: 30%;
+    background-color: rgb(43, 34, 34);
+}
+
+.card2{
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    transform: translate(-75%, -10%);
+    border-radius: 20px;
+    height: 300px;
+    width: 200px;
+    border: 1px solid salmon;
+    overflow: hidden;
+}
+.card2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#card9{
+    z-index: 4;
+    background-color: salmon;
+}
+
+#card10{
+    z-index: 3;
+    rotate: -8deg;
+    background-color: rgb(59, 82, 212);
+}
+#card10:hover{
+    z-index: 10;
+}
+
+#card11{
+    z-index: 2;
+    rotate: -16deg;
+    background-color: #64b31b;
+}
+#card11:hover{
+    z-index: 10;
+}
+#card12{
+    z-index: 1;
+    rotate: -24deg;
+    background-color: #ad16bb;
+}
+#card12:hover{
+    z-index: 10;
+}
